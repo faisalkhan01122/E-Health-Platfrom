@@ -31,7 +31,7 @@ import GynaecologicalPage from "./_root/pages/GynaecologicalPage";
 import PolycysticPage from "./_root/pages/PolycysticPage";
 import ChickenpoxPage from "./_root/pages/ChickenpoxPage";
 import CommonColdPage from "./_root/pages/CommonColdPage";
-import COVID19Page from "./_root/pages/COVID19Page";
+import COVID19Page from "./_root/pages/COVID19Page.jsx";
 import HivPage from "./_root/pages/HivPage";
 import HepatitisPage from "./_root/pages/HepatitisPage";
 import InfluenzaPage from "./_root/pages/InfluenzaPage";
@@ -93,10 +93,12 @@ import ScrollToTop from "./components/share/ScrollTOTop.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (<>
-      <RootLayout />,
-      <ScrollToTop />
-    </>),
+    element: (
+      <>
+        <RootLayout />,
+        <ScrollToTop />
+      </>
+    ),
 
     children: [
       { path: "", element: <EDoctor /> },
