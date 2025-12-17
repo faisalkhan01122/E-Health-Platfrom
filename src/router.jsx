@@ -88,7 +88,7 @@ import Page404 from "./_root/pages/Page404.jsx";
 import DoctorPanel from "./_root/pages/DoctorPanel.jsx";
 import DoctorAtHome from "./_root/pages/DoctorAtHome.jsx";
 import Literature from "./components/IHRC/Literature.jsx";
-import ScrollToTop from "./components/share/ScrollTOTop.jsx";
+import ScrollToTop from "./components/Share/ScrollTOTop.jsx";
 
 const router = createBrowserRouter([
   {

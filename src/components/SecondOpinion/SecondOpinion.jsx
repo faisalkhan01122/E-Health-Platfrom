@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../share/Carousel";
+import Carousel from "../Share/Carousel";
 
 const SecondOpinion = () => {
   // Define the slides data for the carousel

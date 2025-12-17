@@ -1,7 +1,7 @@
-import { Outlet} from 'react-router-dom';
-import Navbar from '../components/Header/Navbar';
-import Footer from '../components/Footer';
-import Whatsapp from '../components/share/Whatsapp';
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Header/Navbar";
+import Footer from "../components/Footer";
+import Whatsapp from "../components/Share/Whatsapp";
 
 const RootLayout = () => {
   return (
@@ -10,7 +10,7 @@ const RootLayout = () => {
       <main className="">
         <Outlet />
       </main>
-      <Whatsapp/>
+      <Whatsapp />
       <Footer />
     </div>
   );

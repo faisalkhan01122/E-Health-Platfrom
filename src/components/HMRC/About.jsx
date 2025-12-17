@@ -1,4 +1,4 @@
-import Banner from "../share/Banner";
+import Banner from "../Share/Banner";
 
 const About = () => {
   return (

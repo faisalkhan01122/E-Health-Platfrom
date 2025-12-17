@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../share/Banner";
+import Banner from "../Share/Banner";
 
 const IHRCAbout = () => {
   return (

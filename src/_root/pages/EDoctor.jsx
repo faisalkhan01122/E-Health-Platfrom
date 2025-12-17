@@ -7,7 +7,7 @@ import Contact from "../../components/e-doctor/Contact";
 import { about } from "../../utils/data";
 import OurServices from "../../components/e-doctor/OurServices";
 
-import Carousel from "../../components/share/Carousel";
+import Carousel from "../../components/Share/Carousel";
 import image from "../../assets/doctors/8.png";
 import image2 from "../../assets/doctors/11.png";
 import image3 from "../../assets/doctors/3.webp";
